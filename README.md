@@ -1,2 +1,2 @@
-# Arwen
-Quantitative trading with AI
+# arwen-resourse
+Contains templates, assets for ui
