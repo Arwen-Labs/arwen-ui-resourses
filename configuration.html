@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="configuration.css">
+    <link rel="stylesheet" href="components.css">
+    <script src="https://s3.tradingview.com/tv.js"></script>
+    <title>Arwen Bots</title>
+</head>
+<body>
+    <div class="image-container"></div>
+
+    <!--header-container start-->
+    <div id="header-container" class="header-container">
+        <div class="header-title-container">ARWEN</div>
+        <div class="header-nav-container"></div>
+    </div>
+    <!--header-container end-->
+
+    <!--configuration-container-start-->
+    <div class="configuration-container">
+        <div class="configuration-hero">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure inventore sequi mollitia, laboriosam natus sed blanditiis nemo assumenda fuga, ea officiis modi placeat autem adipisci.</div>
+        
+        <div class="configurations">
+
+        <div class="exchange-select">
+                <div id="binance" class="exchange">Binance</div>
+                <div id="kucoin" class="exchange">Kucoin</div>
+            </div>
+
+            <div class="model-selection">
+                    <div id="model1" class="bot-model">model1</div>
+                    <div id="model2" class="bot-model">model2</div>
+                    <div id="model3" class="bot-model">model3</div>
+            </div>
+
+            <div class="customize-model">
+                <div id="customize-r1">
+                    <div id="chart-container">chart container</div>
+                    <div class="form1">
+                        <form >
+                            <label for="Binance_API_Key">Binance API Key:</label>
+                            <input type="text" id="Binance_API_Key" name="Binance_API_Key" value="ZmflsQ6PICh2rOlYmsgzhA4Q4oCsoe1Y4nueDLErhYk671f5yfqfa4ONwCSXKH44"><br><br>
+                            <label for="Binance_Secret_Key">Binance Secret Key:</label>
+                            <input type="text" id="Binance_Secret_Key" name="Binance_Secret_Key" value="B8WOzCv56dMmRnmrNMCYAfjQABNSp6T6dD2z3osD7uxUiHl84x6FsFZZvFCf6L61"><br><br>
+                            <label for="pushbulletToken">Pushbullet Token:</label>
+                            <input type="text" id="pushbulletToken" name="pushbulletToken" value="o.FEz9TSZblYIvrkf2dUg0dhffZVZ4vjfv"><br><br>
+                            <label for="symbol">Symbol:</label>
+                            <input type="text" id="symbol" name="symbol" value="btcusdt"><br><br>
+                            <label for="timeFrame">Time Frame:</label>
+                            <input type="text" id="timeFrame" name="timeFrame" value="1m"><br><br>
+                            <label for="trade_fee">Trade Fee:</label>
+                            <input type="text" id="trade_fee" name="trade_fee" value="0.00075"><br><br>
+                        </form>
+                    </div> 
+                </div>
+
+                <div id="customize-r2">
+                    <div id="form2">
+                        <form>
+                            <div>
+                                <label for="testCapital">Test Capital:</label>
+                                <input type="text" id="testCapital" name="testCapital" value="10"><br><br>
+                            </div>
+                            <div>
+                                <label for="testAccount">Test Account:</label>
+                                <input type="text" id="testAccount" name="testAccount" value="200"><br><br>
+                            </div>
+                            <div>
+                                <label for="isTest">Is Test:</label>
+                                <input type="checkbox" id="isTest" name="isTest" value="True" checked><br><br>
+                            </div>
+                            <input type="submit" value="Submit">
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--configuration-container-end-->
+
+    <h2>CUSTOMIZE YOUR BOT</h2>
+</body>
+</html>
